@@ -1,0 +1,24 @@
+{
+  "name": "node-pxe",
+  "version": "0.0.1",
+  "description": "A PXE server built with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/franquis/node-pxe"
+  },
+  "author": "franquis",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "dhcpjs": "^0.4.0",
+    "ip-address": "^5.8.0",
+    "tftp": "^0.1.2"
+  },
+  "devDependencies": {
+    "virtualbox": "^0.1.2"
+  }
+}
